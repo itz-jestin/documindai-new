@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f3f6fb;
+  font-family: "Segoe UI", sans-serif;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* NAVBAR */
+
+.navbar {
+  height: 70px;
+  background: white;
+  border-bottom: 1px solid #e5e7eb;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 30px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #2563eb;
+}
+
+.developer {
+  color: #6b7280;
+}
+
+/* MAIN LAYOUT */
+
+.main-layout {
+  display: flex;
+  height: calc(100vh - 70px);
+}
+
+/* SIDEBAR */
+
+.sidebar {
+  width: 320px;
+  background: white;
+  border-right: 1px solid #e5e7eb;
+  padding: 25px;
+}
+
+.sidebar h2 {
+  margin-bottom: 20px;
+}
+
+.document-card {
+  margin-top: 20px;
+  background: #f9fafb;
+  padding: 15px;
+  border-radius: 12px;
+}
+
+/* CHAT AREA */
+
+.chat-section {
+  flex: 1;
+  padding: 30px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-container {
+  flex: 1;
+
+  background: white;
+  border-radius: 20px;
+
+  padding: 20px;
+
+  overflow-y: auto;
+
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* USER MESSAGE */
+
+.user-message {
+  align-self: flex-end;
+
+  background: #2563eb;
+  color: white;
+
+  padding: 12px 18px;
+
+  border-radius: 18px 18px 4px 18px;
+
+  max-width: 70%;
+}
+
+/* AI MESSAGE */
+
+.ai-message {
+  align-self: flex-start;
+
+  background: #f3f4f6;
+  color: #111827;
+
+  padding: 12px 18px;
+
+  border-radius: 18px 18px 18px 4px;
+
+  max-width: 70%;
+}
+
+/* INPUT AREA */
+
+.chat-input {
+  margin-top: 15px;
+
+  display: flex;
+  gap: 10px;
+}
+
+.chat-input input {
+  flex: 1;
+
+  padding: 14px;
+
+  border: 1px solid #d1d5db;
+
+  border-radius: 12px;
+
+  outline: none;
+}
+
+.chat-input button {
+  padding: 14px 22px;
+
+  border: none;
+
+  background: #2563eb;
+
+  color: white;
+
+  border-radius: 12px;
+
+  cursor: pointer;
+}
+
+.chat-input button:hover {
+  background: #1d4ed8;
+}
+
+/* THINKING */
+
+.thinking {
+  color: #2563eb;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+  .main-layout {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #e5e7eb;
+  }
+}
