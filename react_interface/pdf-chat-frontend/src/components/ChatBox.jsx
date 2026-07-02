@@ -9,7 +9,7 @@ function ChatBox() {
     setLoading(true);
     try {
       const response = await fetch(
-        "https://documind-ai-production-cfee.up.railway.app/ask-pdf",
+        "https://Jestin12-pdf-text-extractor.hf.space/ask-pdf",
         {
           method: "POST",
           headers: {

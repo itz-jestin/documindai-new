@@ -17,7 +17,7 @@ function FileUpload({setPdfInfo}) {
 
     try {
       const response = await fetch(
-        "https://documind-ai-production-cfee.up.railway.app/upload-pdf",
+        "https://Jestin12-pdf-text-extractor.hf.space/upload-pdf",
         {
           method: "POST",
           body: formData,
