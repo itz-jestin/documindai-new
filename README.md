@@ -6,8 +6,8 @@ An AI-powered backend for **DocuMind AI** that enables users to upload PDF docum
 
 ## 🚀 Live Demo
 
-- **Backend API:** https://your-huggingface-space.hf.space
-- **Frontend:** https://your-vercel-app.vercel.app
+- **Backend API:** https://huggingface.co/spaces/Jestin12/pdf-text-extractor
+- **Frontend:** https://pdf-chat-frontend-seven.vercel.app/
 
 ---
 
@@ -216,7 +216,7 @@ Generated Answer
 ## 🤝 Related Repository
 
 Frontend Repository:
-https://github.com/YOUR_USERNAME/documind-ai-frontend
+https://github.com/itz-jestin/pdf-chat-frontend
 
 ---
 
